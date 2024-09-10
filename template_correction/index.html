@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Le template des démos du module 1">
+	<title>Template module 1</title>
+	<link rel="stylesheet" href="css/common-v1.css">
+	<link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+
+	<header class="header">
+		<h1>Module 1 - Mise en forme</h1>
+	<footer>
+		<p>Découverte de la mise en forme du texte</p>
+	</footer>
+		
+	</header>
+	
+	<main>
+
+		<h2>Mise en forme des caratères</h2>
+		
+		<p>Utilisation des proriétés <span class="txt-noir">font-xxx</span></p>
+		
+		<h3>La taille</h3>
+
+		<p>La propriété CSS <span class="txt-noir">font-size</span> permet de définir la taille utilisée pour le texte.</p>
+		
+		<ul>
+			<li class="font-size-medium">On peut utiliser une des valeurs prédéfinies comme <span class="txt-noir">font-size: medium</span> mais ce n'est pas très utilisé.</li>
+			<li class="font-size-large">On peut utiliser une des valeurs prédéfinies comme <span class="txt-noir">font-size: large </span>mais ce n'est pas très utilisé.</li>
+			<li class="font-size-px">On peut utiliser une valeur absolue avec l'unité px, par exemple <span class="txt-noir">font-size: 14px</span> mais ce n'est pas recommandé.</li>
+			<li class="font-size-pt">On peut utiliser une valeur absolue avec l'unité pt (point comme dans Word), par exemple <span class="txt-noir">font-size: 14pt</span> mais ce n'est pas recommandé.</li>
+			<li class="font-size-pourcents">On peut utiliser une valeur proportionnelle en pourcentage, par exemple <span class="txt-noir">font-size: 150%</span> mais ce n'est pas très utilisé.</li>
+			<li class="font-size-em">Il est recommandé d'utiliser une valeur proportionnelle en em, par exemple <span class="txt-noir">font-size: 1.5em.</span></li>
+			<li class="font-size-rem">Comme alternative, on peut utiliser une valeur proportionnelle en rem (toujours proportionnelle à la taille définie à la racine du document, le ROOT, soit l'élément HTML), par exemple <span class="txt-noir">font-size: 1.5rem.</span></li>
+		</ul>	
+		
+		<h3>La graisse</h3>
+
+		<p>La propriété CSS <span class="txt-noir">font-weight</span> permet de définir la graisse utilisée pour le texte.</p>
+		
+		<ul>
+			<li class="font-weight-bold">On peut mettre du texte en gras avec <span class="txt-noir">font-weight: bold</span>.</li>
+			<li class="font-weight-normal">On peut supprimer le gras existant avec <span class="txt-noir">font-weight: normal</span> (ici le texte est dans un élément &lt;strong&gt;).</li>
+			<li class="font-weight-700">Il est possible de donner un niveau de graisse (compris entre 100 et 900), par exemple <span class="txt-noir">font-weight: 700</span> (équivalent du gras) si prévu par la police de caractères.</li>
+			<li class="font-weight-bolder"><span class="txt-noir">font-weight: bolder</span> permet d'augmenter la graisse si possible.</li>
+			<li class="font-weight-lighter"><span class="txt-noir">font-weight: lighter</span> permet de diminuer la graisse si possible.</li>
+	</ul>
+		
+		<h3>Le style</h3>
+
+		<p>La propriété CSS <span class="txt-noir">font-style</span> permet de définir le style utilisé pour le texte.</p>
+		
+		<ul>
+			<li class="font-style-italic">On peut mettre du texte en gras avec <span class="txt-noir">font-style: italic</span>.</li>
+			<em></em><li><span class="font-style-normal">On peut supprimer le style existant avec <span class="txt-noir">font-style: normal</span> (ici le texte est dans un élément &lt;em&gt;).</span></li></em>
+		</ul>
+
+		<h2>Mise en forme des espacements</h2>
+
+		<p>Utilisation des proriétés <span class="txt-noir">line-height, letter-spacing, word-spacing</span> et <span class="txt-noir">white-space</span></p>
+		
+		<h3>La hauteur de ligne</h3> 
+
+		<p>La propriété CSS <span class="txt-noir">line-height</span> permet de définir la hauteur de ligne du texte (donc indirectement l'espacement entre les lignes).</p>
+			<ul>
+				<li class="line-height-1">Une ligne de texte avec la valeur <span class="txt-noir">line-height: 1</span> la valeur n'a pas d'unité.</li>
+				<li class="line-height-1-5">Une ligne de texte avec la valeur <span class="txt-noir">line-height: 1.5</span> la valeur n'a pas d'unité.</li>
+				<li class="line-height-4">Une ligne de texte avec la valeur <span class="txt-noir">line-height: 4</span> la valeur n'a pas d'unité.</li>
+		</ul>
+
+		<h3>L'espacement entre les lettres</h3>
+
+		<p>La propriété CSS <span class="txt-noir">letter-spacing</span> permet de définir l'espacement entre les lettres.</p>
+			<ul>
+				<li class="letter-spacing">Une ligne de texte avec la valeur letter-spacing: 0.5em avec l'unité em (de préférence).</li>
+		</ul>
+		
+		<h3>L'espacement entre les mots</h3>
+
+		<p>La propriété CSS <span class="txt-noir">word-spacing</span> permet de définir l'espacement entre les mots.</p>
+		
+		<ul> 
+			<li class="word-spacing-2em">Une ligne de texte avec la valeur <span class="txt-noir">word-spacing: 2em</span> avec l'unité em (de préférence).</li>
+		</ul>
+
+		<h3>Gestion des espaces (blancs)</h3>
+
+		<p>La propriété CSS <span class="txt-noir">white-space</span> permet de gérer le comportement des espaces.</p>
+		
+			<p class="white-space-normal small"><small>Une ligne de texte avec la valeur <span class="txt-noir">white-space: normal</span>, le texte retourne à la ligne normalement.</small></p>
+			<p class="white-space-nowrap small"><small>Une ligne de texte avec la valeur <span class="txt-noir">white-space: nowrap</span> le texte ne retourne pas à la ligne..</small>
+			<p class="white-space-pre small"><small>Une ligne de texte avec la valeur <span class="txt-noir">white-space: pre</span>
+					le texte se comporte comme dans l'élément &lt;pre&gt;.</small></p>
+		
+		<h2>Mise en forme du texte</h2>
+
+		<p>Utilisation des proriétés <span class="txt-noir">text-xxx</span> </p>
+		
+		<h3>L'alignement et la justification du texte</h3>
+
+		<p>La propriété CSS <span class="txt-noir">text-align</span> permet de définir l'alignement du texte.</p>
+		
+		<p class="text-align-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, velit nulla! Vitae dolorem dignissimos temporibus sequi possimus ad nostrum quod rem quo ea cupiditate enim repudiandae perferendis quaerat eos culpa, at totam omnis architecto ipsam maiores inventore consequuntur. Modi fuga inventore dolorem iusto dolore eius maxime vero ut quisquam numquam.</p>
+		<p class="text-align-right">Aliquid labore qui ducimus eum, fuga, soluta beatae distinctio, rem harum totam laboriosam nostrum aspernatur. Veritatis officia placeat et, tenetur laboriosam aut deserunt voluptate dicta. Eaque delectus vitae nesciunt corporis illo nemo, debitis, tempore molestiae laudantium nam quidem totam unde quis tempora atque illum voluptas earum velit nostrum nihil corrupti?</p>
+		<p class="text-align-center">Temporibus provident ut harum ex facere, vitae error iure quis reprehenderit quam blanditiis asperiores est nesciunt pariatur saepe repellendus facilis rerum consequuntur fuga natus dolorem eos ipsam assumenda aliquid. Dignissimos tempore harum suscipit, repellat sint sunt ut labore eius ex, earum repellendus ad error consectetur fugit. Voluptatum voluptatem aperiam nulla!</p>
+		<p class="text-align-justify"></p>Voluptate tempore, illo explicabo voluptatem a quae, eligendi porro dolore molestiae, blanditiis dolorum magnam pariatur? Nihil rem nulla minima doloremque quis quia dolore? Eos amet, deserunt pariatur reprehenderit cumque veniam ea, repellat explicabo magni facilis rerum voluptatibus illo ipsum velit esse sint laboriosam similique enim quia dolores animi harum iusto!
+		
+		<h3>L'indentation du texte</h3>
+
+		<p>La propriété CSS <span class="txt-noir">text-indent</span> permet de définir l'indentation du texte.</p>
+		
+		<p class="text-indent">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, velit nulla! Vitae dolorem dignissimos temporibus sequi possimus ad nostrum quod rem quo ea cupiditate enim repudiandae perferendis quaerat eos culpa, at totam omnis architecto ipsam maiores inventore consequuntur. Modi fuga inventore dolorem iusto dolore eius maxime vero ut quisquam numquam.</p>
+		
+		<h3>La transformation du texte</h3>
+
+		<p>La propriété CSS <span class="txt-noir">text-transform</span> permet de d'effectuer une transformation de la casse du texte (cette méthode est recommandée).</p>
+			<ul>
+				<li class="text-transform-none">La valeur <span class="txt-noir">text-transform: none</span> annulme toute transformation.</li>
+				<li class="text-transform-capitalize">Avec la valeur <span class="txt-noir">text-transform: capitalize</span>, la première lettre de chaque mot sera affichée en capitale.</li>
+				<li class="text-transform-uppercase">Avec la valeur <span class="txt-noir">text-transform: uppercase</span>, tous les caractères seront écrits en majuscule.</li>
+				<li class="text-transform-lowercase">Avec la valeur <span class="txt-noir">text-transform: none</span>, tous les caractères seront écrits en minuscule.</li>
+			</ul>
+
+		<h3>La décoration du texte</h3>
+
+		<p>La propriété CSS <span class="txt-noir">text-decoration</span> permet de définir une décoration au texte. On peut définir le type, le style et la couleur de la décoration.</p>
+			<ul>
+				<li class="text-deco-underline">La valeur  <span class="txt-noir">text-decoration: underline</span> permet de souligner le texte (avec la même couleur).</li>
+				<li class="text-deco-underline-lien"><a href="#">La valeur  <span class="txt-noir">text-decoration: underline</span> permet de supprimer le soulignement le texte (ici dans un lien)</a>.</li>
+				<li class="text-deco-overline">La valeur  <span class="txt-noir">text-decoration: overline</span> permet de surligner le texte (avec la même couleur).</li>
+				<li class="text-deco-underline-red">La valeur  <span class="txt-noir">text-decoration: underline</span> red permet de souligner le texte en rouge.</li>
+				<li class="text-deco-underline-double-orangered">La valeur  <span class="txt-noir">text-decoration: underline double orangered</span> permet de souligner le texte en double (et en orange).</li>
+				<li class="text-deco-underline-green">La valeur  <span class="txt-noir">text-decoration: underline green</span> permet de souligner le texte en tirets (et en vert).</li>
+				<li class="text-deco-underline-wavy-teal">La valeur  <span class="txt-noir"></span>text-decoration: underline wavy teal permet de souligner le texte avec une vague (et en bleu).</li>
+			</ul>
+	<footer class="footer">
+		<p><a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy" src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png"></a></p>
+		<p>Ce matériel pédagogique est la propriété de la <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+	</footer>
+	
+</body>
+</html>

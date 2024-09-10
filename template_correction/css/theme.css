@@ -1,0 +1,158 @@
+/* Le code CSS de l'exercice dirigé */
+
+.txt-noir {
+    color:black;
+}
+
+/* font-size */
+.font-size-medium {
+    font-size: medium;
+}
+
+.font-size-large {
+    font-size: large;
+}
+.font-size-px {
+    font-size: 14px;
+}
+
+.font-size-pt {
+    font-size: 14pt;
+}
+
+.font-size-pourcents {
+    font-size: 150%;
+}
+
+.font-size-em {
+    font-size: 1.5em;
+}
+
+.font-size-rem {
+    font-size: 1.5rem;
+}
+
+/* font-weight */
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.font-weight-normal {
+    font-weight: normal;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.font-weight-bolder {
+    font-weight: bolder;
+}
+
+.font-weight-lighter {
+    font-weight: lighter;
+}
+
+/* font-style */
+
+.font-style-italic {
+    font-style: italic;
+}
+
+.line-height-1 {
+    line-height: 1;
+}
+
+.line-height-1-5 {
+    line-height: 1.5;
+}
+
+.line-height-4 {
+    line-height: 4;
+}
+
+/* espacement */
+
+.small {
+    width: 200px;
+    background-color: #ccc;
+}
+.word-spacing-2em {
+    word-spacing: 2em;
+}
+
+.white-space-normal {
+    white-space: normal;
+}
+
+.white-space-nowrap {
+    white-space: nowrap;
+}
+
+.white-space-pre {
+    white-space: pre;
+}
+
+/*text align*/
+
+.text-align-left {
+    text-align: left;
+}
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+/*text-indent*/
+
+.text-indent {
+    text-indent: 30%;
+}
+/*text-transform*/
+
+.text-transform-none {
+    text-transform: none;
+}
+
+.text-transform-capitalize {
+    text-transform: capitalize;
+}
+
+.text-transform-uppercase {
+    text-transform: uppercase;
+}
+
+.text-transform-lowercase {
+    text-transform: lowercase;
+}
+
+/* text-deco*/
+
+.text-deco-underline {
+    text-decoration: underline;
+}
+.text-deco-underline_lien {
+    text-decoration: underline;
+}
+.text-deco-overline {
+    text-decoration: overline;
+}
+.text-deco-underline-red {
+    text-decoration: underline red;
+}
+.text-deco-underline-double-orangered {
+    text-decoration: double orangered;
+}
+.text-deco-underline-green {
+    text-decoration: underline green;
+}
+.text-deco-underline-wavy-teal {
+    text-decoration: underline wavy teal;
+}
